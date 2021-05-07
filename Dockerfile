@@ -1,6 +1,6 @@
 FROM httpd:latest
 LABEL MAINTAINER=konrad.schieban@gmail.com
 
-COPY . /usr/local/apache2/htdocs/.
+COPY . /var/www/htdocs/.
 
-EXPOSE 80
+EXPOSE 8080
